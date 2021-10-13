@@ -4,6 +4,6 @@ use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'Fylgja_Theme',
+    'Siteation_HyvaIconsFeather',
     __DIR__
 );

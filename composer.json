@@ -1,23 +1,23 @@
 {
-    "name": "fylgja-themes/magento2-theme-module",
-    "description": "Fylgja Themes companion module",
-    "type": "magento2-module",
-    "require": {
-        "hyva-themes/magento2-theme-module": "*"
-    },
-    "authors": [
-        {
-            "name": "Fylgja",
-            "email": "info@fylgja.dev"
-        }
-    ],
-    "license": "MIT",
-    "autoload": {
-        "files": [
-            "src/registration.php"
-        ],
-        "psr-4": {
-            "Fylgja\\Theme\\": "src/"
-        }
+  "name": "siteation/hyva-icons-feather",
+  "description": "Feather icons for Hyva",
+  "type": "magento2-module",
+  "require": {
+    "hyva-themes/magento2-theme-module": "*"
+  },
+  "authors": [
+    {
+      "name": "Siteation",
+      "email": "info@siteation.dev"
     }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Siteation\\HyvaIconsFeather\\": ""
+    }
+  }
 }
