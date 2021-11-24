@@ -1,6 +1,6 @@
 {
-  "name": "siteation/hyva-icons-feather",
-  "description": "Feather icons for Hyva",
+  "name": "siteation/magento2-hyva-icons-feather",
+  "description": "Feather icons for Hyva Themes",
   "type": "magento2-module",
   "require": {
     "hyva-themes/magento2-theme-module": "*"

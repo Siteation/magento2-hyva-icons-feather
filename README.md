@@ -8,7 +8,7 @@
 This Magento 2 module adds the option to use FeatherIcons in your Hyva frontend.
 
 This requires that you have a working Hyva frontend,
-this icon pack was made specifically for Hyva and will not work out of the box with any other frontend.
+this icon pack was made specifically for Hyva Themes and will not work out of the box with any other frontend.
 
 _If you are looking for a Luma based option [checkout this icon pack instead](https://github.com/GrimLink/magento2-icon-packs)._
 
@@ -17,7 +17,7 @@ _If you are looking for a Luma based option [checkout this icon pack instead](ht
 Install the package via;
 
 ```bash
-composer require siteation/hyva-icons-feather
+composer require siteation/magento2-hyva-icons-feather
 bin/magento setup:upgrade
 ```
 
