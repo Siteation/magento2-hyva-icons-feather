@@ -65,10 +65,16 @@ class SvgIcons implements ArgumentInterface
      * @param string $classNames CSS classes to add to the root element, space separated
      * @param int|null $width Width in px (recommended to render in correct size without CSS)
      * @param int|null $height Height in px (recommended to render in correct size without CSS)
+     * @param array $attributes Additional attributes you can set on the SVG as key => value, like :class for AlpineJS
      * @return string
      */
-    public function renderHtml(string $icon, string $classNames = '', ?int $width = null, ?int $height = null): string
-    {
+    public function renderHtml(
+        string $icon,
+        string $classNames = '',
+        ?int $width = null,
+        ?int $height = null,
+        array $attributes = []
+    ): string {
         $cacheKey = $this->design->getDesignTheme()->getCode() .
             '/' . $this->iconSet .
             '/' . $icon .
@@ -89,6 +95,15 @@ class SvgIcons implements ArgumentInterface
         if ($height) {
             $svgXml['height'] = (string) $height;
         }
+
+        if (!empty($attributes)) {
+            foreach ($attributes as $key => $value) {
+                if (!empty($key) && !isset($svgXml[strtolower($key)])) {
+                    $svgXml[strtolower($key)] = (string)$value;
+                }
+            }
+        }
+
         $result = \str_replace("<?xml version=\"1.0\"?>\n", '', $svgXml->asXML());
         $this->cache->save($result, $cacheKey, [self::CACHE_TAG]);
         return $result;
@@ -113,7 +128,7 @@ class SvgIcons implements ArgumentInterface
      */
     private static function camelCaseToKebabCase(string $in): string
     {
-        return strtolower(preg_replace('/(.)([A-Z])/', "$1-$2", $in));
+        return strtolower(preg_replace('/(.|[0-9])([A-Z]|[0-9])/', "$1-$2", $in));
     }
 
     /**
@@ -121,7 +136,7 @@ class SvgIcons implements ArgumentInterface
      */
     private function getFilePath(string $icon): string
     {
-        $assetFileId = 'Siteation_HyvaIconsFeather::svg/' . $this->iconSet . '/' . $icon . '.svg';
+        $assetFileId = 'Siteation_HyvaIconsFeather::svg/' . ($this->iconSet === '' ? '' : $this->iconSet . '/') . $icon . '.svg';
         return $this->assetRepository->createAsset($assetFileId)->getSourceFile();
     }
 }
