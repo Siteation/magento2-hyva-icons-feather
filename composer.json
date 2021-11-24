@@ -1,17 +1,25 @@
 {
   "name": "siteation/magento2-hyva-icons-feather",
-  "description": "Feather icons for Hyva Themes",
+  "version": "1.0.0",
+  "license": "MIT",
   "type": "magento2-module",
-  "require": {
-    "hyva-themes/magento2-theme-module": "*"
-  },
+  "description": "Feather icons for Hyva Themes",
+  "keywords": [
+    "magento2",
+    "magento2-module",
+    "magento2-hyva",
+    "feathericons"
+  ],
   "authors": [
     {
       "name": "Siteation",
-      "email": "info@siteation.dev"
+      "email": "info@siteation.nl",
+      "homepage": "https://www.siteation.dev"
     }
   ],
-  "license": "MIT",
+    "require": {
+    "hyva-themes/magento2-theme-module": "*"
+  },
   "autoload": {
     "files": [
       "registration.php"
