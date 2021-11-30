@@ -35,6 +35,8 @@ To use this icon pack instead of the default Hyva icons, add the following to yo
 use Hyva\Theme\Model\ViewModelRegistry;
 use Siteation\HyvaIconsFeather\ViewModel\FeatherIcons;
 
+/** @var ViewModelRegistry $viewModels */
+
 /** @var FeatherIcons $featherIcons */
 $featherIcons = $viewModels->require(FeatherIcons::class);
 ```
