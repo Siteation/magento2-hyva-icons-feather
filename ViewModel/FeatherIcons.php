@@ -7,19 +7,8 @@
 
 namespace Siteation\HyvaIconsFeather\ViewModel;
 
-use Magento\Framework\App\CacheInterface;
-use Magento\Framework\View\Asset;
-use Magento\Framework\View\DesignInterface;
+use Hyva\Theme\ViewModel\SvgIcons;
 
 class FeatherIcons extends SvgIcons implements FeatherIconsInterface
 {
-    private const FEATHERICONS = 'feather';
-
-    public function __construct(
-        Asset\Repository $assetRepository,
-        CacheInterface $cache,
-        DesignInterface $design
-    ) {
-        parent::__construct($assetRepository, $cache, $design, self::FEATHERICONS);
-    }
 }
