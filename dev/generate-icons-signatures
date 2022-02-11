@@ -1,0 +1,25 @@
+#!/usr/bin/env php
+
+<?php
+
+function dashesToCamelCase($string, $capitalizeFirstCharacter = false)
+{
+    $str = str_replace(' ', '', ucwords(str_replace('-', ' ', $string)));
+    if (!$capitalizeFirstCharacter) {
+        $str[0] = strtolower($str[0]);
+    }
+
+    return $str;
+}
+
+$iconPath="view/frontend/web/svg/feather";
+$dir = dirname(__DIR__, 1) . "/" . $iconPath;
+$icons = array_diff(scandir($dir), array('..', '.'));
+
+foreach ($icons as &$icon) {
+    $icon = str_replace('.svg', '', $icon);
+    echo " * @method string ";
+    echo dashesToCamelCase($icon);
+    echo "Html(string \$classnames = '', ?int \$width = 24, ?int \$height = 24, array \$attributes = [])";
+    echo "\n";
+}
