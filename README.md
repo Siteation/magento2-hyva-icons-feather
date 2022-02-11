@@ -44,5 +44,5 @@ $featherIcons = $viewModels->require(FeatherIcons::class);
 and use the FeatherIcons just as the HeroIcons in Hyva;
 
 ```php
-<?= $featherIcons->menuHtml('class', 24, 24, ["aria-label" => "Open menu"]) ?>
+<?= $featherIcons->menuHtml('p-1', 24, 24, ["aria-label" => "Open menu"]) ?>
 ```
