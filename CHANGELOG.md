@@ -6,10 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.1.0] - 2022-02-10
+## [1.1.0] - 2022-02-11
 ### Changed
 - Use `Hyva\Theme\ViewModel\SvgIcons` instead of our own
-- Drop support for `hyva-themes/magento2-theme-module` versions older than `1.1.11`
+- Dropped support for `hyva-themes/magento2-theme-module` versions older than `1.1.11`
 
 ### Removed
 - Our own copy of Hyva SvgIcons
