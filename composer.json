@@ -1,6 +1,6 @@
 {
   "name": "siteation/magento2-hyva-icons-feather",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "MIT",
   "type": "magento2-module",
   "description": "Feather icons for Hyva Themes",
@@ -18,7 +18,7 @@
     }
   ],
   "require": {
-    "hyva-themes/magento2-theme-module": ">=1.1.11"
+    "hyva-themes/magento2-theme-module": ">=1.1.12"
   },
   "autoload": {
     "files": [
