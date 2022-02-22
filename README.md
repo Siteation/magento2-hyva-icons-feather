@@ -46,3 +46,17 @@ and use the FeatherIcons just as the HeroIcons in Hyva;
 ```php
 <?= $featherIcons->menuHtml('p-1', 24, 24, ["aria-label" => "Open menu"]) ?>
 ```
+
+### Using SVG icons in CMS content
+
+You can now also use the SVG icons in your CMS content.
+
+Bringing svg icon support to you CMS pages, Blocks and Widgets.
+
+```txt
+{{icon "feather/menu"}}
+```
+
+[For more information on how and what see the Hyva Docs](https://docs.hyva.io/hyva-themes/writing-code/working-with-view-models/svgicons.html#using-svg-icons-in-cms-content)
+
+> This feature is supported since Hyva v1.1.12 and Siteation/magento2-hyva-icons-feather v1.2

@@ -7,4 +7,11 @@
             <argument name="iconPathPrefix" xsi:type="string">Siteation_HyvaIconsFeather::svg/feather</argument>
         </arguments>
     </type>
+    <type name="Hyva\Theme\ViewModel\SvgIcons">
+        <arguments>
+            <argument name="pathPrefixMapping" xsi:type="array">
+                <item name="feather" xsi:type="string">Siteation_HyvaIconsFeather::svg/feather</item>
+            </argument>
+        </arguments>
+    </type>
 </config>

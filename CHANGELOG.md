@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Support for svg icons in wysiwyg editor, [See README for how](./README.md)
+
 ## [1.1.0] - 2022-02-11
 ### Changed
 - Use `Hyva\Theme\ViewModel\SvgIcons` instead of our own
