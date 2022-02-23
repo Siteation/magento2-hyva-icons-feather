@@ -63,7 +63,7 @@ Bringing svg icon support to you CMS pages, Blocks and Widgets.
 
 - Hero Icons (Default for Hyva)
 - [Bootstrap Icons](https://github.com/Siteation/magento2-hyva-icons-bootstrap)
-- [Payment Icons](https://gitlab.hyva.io/hyva-themes/magento2-payment-icons) (Requires Gitlab or License to access)
+- [Payment Icons](https://gitlab.hyva.io/hyva-themes/magento2-payment-icons) (Requires Hyva Gitlab or License to access)
 - [Font Awesome 5 Icons](https://github.com/JaJuMa-GmbH/awesome-hyva)
 
 _If you are looking for a Luma based option [checkout this icon pack instead](https://github.com/GrimLink/magento2-icon-packs)._
