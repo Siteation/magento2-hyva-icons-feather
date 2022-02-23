@@ -10,8 +10,6 @@ This Magento 2 module adds the option to use [Feather Icons](https://github.com/
 This requires that you have a working Hyva frontend,
 this icon pack was made specifically for Hyva Themes and will not work out of the box with any other frontend.
 
-_If you are looking for a Luma based option [checkout this icon pack instead](https://github.com/GrimLink/magento2-icon-packs)._
-
 ## Installation
 
 Install the package via;
@@ -60,6 +58,15 @@ Bringing svg icon support to you CMS pages, Blocks and Widgets.
 [For more information on how and what see the Hyva Docs](https://docs.hyva.io/hyva-themes/writing-code/working-with-view-models/svgicons.html#using-svg-icons-in-cms-content)
 
 > This feature is supported since Hyva v1.1.12 and Siteation/magento2-hyva-icons-feather v1.2
+
+## Other icon packs for Hyva
+
+- Hero Icons (Default for Hyva)
+- [Bootstrap Icons](https://github.com/Siteation/magento2-hyva-icons-bootstrap)
+- [Payment Icons](https://gitlab.hyva.io/hyva-themes/magento2-payment-icons) (Requires Gitlab or License to access)
+- [Font Awesome 5 Icons](https://github.com/JaJuMa-GmbH/awesome-hyva)
+
+_If you are looking for a Luma based option [checkout this icon pack instead](https://github.com/GrimLink/magento2-icon-packs)._
 
 ## Icon License
 
