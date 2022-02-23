@@ -60,3 +60,8 @@ Bringing svg icon support to you CMS pages, Blocks and Widgets.
 [For more information on how and what see the Hyva Docs](https://docs.hyva.io/hyva-themes/writing-code/working-with-view-models/svgicons.html#using-svg-icons-in-cms-content)
 
 > This feature is supported since Hyva v1.1.12 and Siteation/magento2-hyva-icons-feather v1.2
+
+## Icon License
+
+[Feather Icons](https://github.com/colebemis/feather) used in this module were created by [Cole Bemis](https://github.com/feathericons) under a [MIT License, found here](https://github.com/feathericons/feather/blob/master/LICENSE)
+
