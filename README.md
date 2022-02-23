@@ -5,7 +5,7 @@
 [![Hyva Themes Module](https://img.shields.io/badge/Hyva_Themes-Module-3df0af.svg?longCache=true&style=for-the-badge)](https://hyva.io/)
 ![License](https://img.shields.io/github/license/fylgja/fylgja?color=%23234&style=for-the-badge)
 
-This Magento 2 module adds the option to use FeatherIcons in your Hyva frontend.
+This Magento 2 module adds the option to use [Feather Icons](https://github.com/colebemis/feather) in your Hyva frontend.
 
 This requires that you have a working Hyva frontend,
 this icon pack was made specifically for Hyva Themes and will not work out of the box with any other frontend.
