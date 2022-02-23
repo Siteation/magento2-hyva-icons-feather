@@ -10,8 +10,10 @@ namespace Siteation\HyvaIconsFeather\ViewModel;
 // phpcs:disable Magento2.NamingConvention.InterfaceName.WrongInterfaceName
 // phpcs:disable Generic.Files.LineLength.TooLong
 
+// Icon version: v4.28.0
+
 /**
- * These method signatures were generated with dev/generate-icon-signatures
+ * These method signatures were generated with bin/generate-icon-signatures
  *
  * @method string activityHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string airplayHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
