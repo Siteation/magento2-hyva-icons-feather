@@ -10,8 +10,6 @@ namespace Siteation\HyvaIconsFeather\ViewModel;
 // phpcs:disable Magento2.NamingConvention.InterfaceName.WrongInterfaceName
 // phpcs:disable Generic.Files.LineLength.TooLong
 
-// Icon version: v4.28.0
-
 /**
  * These method signatures were generated with bin/generate-icon-signatures
  *
@@ -249,6 +247,7 @@ namespace Siteation\HyvaIconsFeather\ViewModel;
  * @method string sunHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string sunriseHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string sunsetHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
+ * @method string tableHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string tabletHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string tagHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string targetHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
