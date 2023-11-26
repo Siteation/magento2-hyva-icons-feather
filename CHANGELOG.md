@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Update Feather icons to v4.29.1
 
+### Fixed
+- Location for iconPathPrefix
+
 ## [1.2.0] - 2022-02-11
 ### Added
 - Support for svg icons in wysiwyg editor, [See README for how](./README.md)
