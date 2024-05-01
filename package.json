@@ -21,6 +21,6 @@
     "build": "npm run build:icons && npm run build:signature"
   },
   "dependencies": {
-    "feather-icons": "^4.29.1"
+    "feather-icons": "^4.29.2"
   }
 }
