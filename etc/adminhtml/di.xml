@@ -3,9 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd"
 >
-    <type name="Siteation\HyvaIconsFeather\ViewModel\FeatherIcons">
+    <type name="Hyva\Theme\ViewModel\SvgIcons">
         <arguments>
-            <argument name="iconPathPrefix" xsi:type="string">Siteation_HyvaIconsFeather::svg/feather</argument>
+            <argument name="pathPrefixMapping" xsi:type="array">
+                <item name="feather" xsi:type="string">Siteation_HyvaIconsFeather::svg/feather</item>
+            </argument>
         </arguments>
     </type>
 </config>
